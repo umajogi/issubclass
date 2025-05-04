@@ -1,0 +1,14 @@
+#checking the subclses belongs to parent cls or not 
+#issubclass(childclass_name,parentclass_name)
+class Animal:
+    pass
+class dog(Animal):
+    pass
+class puppy(dog):
+    pass
+class cat:
+    pass
+print( "Dog is an subclass of Animal?",issubclass(dog,Animal))
+print("Animal is a subclass of Dog?",issubclass(Animal,dog))
+print("cat is a subclass of Animal?",issubclass(cat,Animal))
+print("puppy is a subclass of Animal?",issubclass(puppy,Animal))
